@@ -1,0 +1,31 @@
+{
+  "name": "ndjs_4_ndse-homework",
+  "version": "1.0.0",
+  "description": "Домашнее задание по теме «Аргументы командной строки и console»",
+  "main": "homework1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oleg-Tsvetkov23/ndjs_4_ndse-homework.git"
+  },
+  "author": "o.tsvetkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleg-Tsvetkov23/ndjs_4_ndse-homework/issues"
+  },
+  "homepage": "https://github.com/Oleg-Tsvetkov23/ndjs_4_ndse-homework#readme",
+  "keywords": [
+    "yargs",
+    "readline"
+  ],
+  "bin": {
+    "myDateUtil": "homework1.js",
+    "myGame": "homework2.js"
+  },
+  "dependencies": {
+    "readline": "^1.3.0",
+    "yargs": "^17.0.1"
+  }
+}
